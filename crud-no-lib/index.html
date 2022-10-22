@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tusks</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+   <div class="todo">
+     <h1 class="header">My Tusks</h1><hr />
+     <div class="container">
+       <div class="section">
+          <form class="fill-form" id="form-1">
+            <div class="fill-container">
+              <div class="task-header">
+                <h2 class="modal-title" id="modal-task" data-target="modal">
+                  Task
+                </h2>
+              </div>
+              <div class="text-body">
+                <p class="tasks-title">Enter Task</p>
+                <input type="text" class="form-control" name="" id="textInput" />
+                <div id="text"></div>
+                <br />
+                <p class="tasks-title">Description</p>
+                <textarea
+                name=""
+                class="form-control"
+                id="descriptionArea"
+                cols="30"
+                rows="5"
+              ></textarea>
+              <br />
+              <p class="tasks-title">Dateline</p>
+              <input type="date" class="date-control" name="" id="dateInput" />
+              </div><br />
+              <div class="form-footer">
+                <button type="submit" id="add" class="add-btn">Add</button>
+              </div>
+            </div>
+          </form>
+       </div>
+       <div class="tasks">
+        <h2 class="text-center">Tasks To Be Done</h2><hr />
+        <ul id="tasks"></ul>
+       </div>
+       <div class="completed">
+        <h2 class="tasks-complete">Completed Tasks</h2><hr />
+        <ul id="tasks2"></ul>
+       </div>
+     </div>
+   </div>
+</body>
+<script src="index.js"></script>
+</html>
