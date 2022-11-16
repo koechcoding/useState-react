@@ -1,0 +1,25 @@
+{
+  "name": "restful",
+  "version": "1.0.0",
+  "description": "taking you through rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koechcoding/RESTful.git"
+  },
+  "author": "Kelvin Koech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koechcoding/RESTful/issues"
+  },
+  "homepage": "https://github.com/koechcoding/RESTful#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "prettier": "2.7.1"
+  }
+}
